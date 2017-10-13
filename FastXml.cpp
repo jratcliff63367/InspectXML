@@ -17,6 +17,11 @@ namespace FAST_XML
 
 #define U(c) ((unsigned char)(c))
 
+static inline bool isSingleOrDoubleQuote(char c)
+{
+	return c == 34 || c == 39;
+}
+
 // Abstract interface for reading the XML file in; from either a file or memory
 class FileBuffer
 {
@@ -746,14 +751,14 @@ public:
 								if( *scan ) // if not eof...
 								{
 									scan = skipNextData(scan);
-									if( *scan == '"' )
+									if( isSingleOrDoubleQuote(*scan) )
 									{
 										scan++;
 										argc++;
 										argv[argc] = scan;
 										argc++;
 										while ( *scan && *scan != 34 ) scan++;
-										if( *scan == '"' )
+										if( isSingleOrDoubleQuote(*scan) )
 										{
 											*scan = 0;
 											scan++;
