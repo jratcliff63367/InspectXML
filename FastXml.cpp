@@ -4,7 +4,7 @@
 #include <assert.h>
 #include <new>
 
-#define DEBUG_LOG 1
+#define DEBUG_LOG 0
 
 namespace FAST_XML
 {
