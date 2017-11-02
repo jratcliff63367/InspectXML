@@ -1,0 +1,827 @@
+<PhysX30Collection version="3.4.0" >
+	<UpVector >0 0 0</UpVector>
+	<Scale >
+		<Length >0</Length>
+		<Mass >0</Mass>
+		<Speed >0</Speed>
+	</Scale>
+	<PxMaterial >
+		<Id >1</Id>
+		<DynamicFriction >0.5</DynamicFriction>
+		<StaticFriction >0.5</StaticFriction>
+		<Restitution >0.6</Restitution>
+		<FrictionCombineMode >eAVERAGE</FrictionCombineMode>
+		<RestitutionCombineMode >eAVERAGE</RestitutionCombineMode>
+	</PxMaterial>
+	<PxMaterial >
+		<Id >2</Id>
+		<DynamicFriction >0.563585</DynamicFriction>
+		<StaticFriction >0.00125126</StaticFriction>
+		<Restitution >0.193304</Restitution>
+		<FrictionCombineMode >eAVERAGE</FrictionCombineMode>
+		<RestitutionCombineMode >eAVERAGE</RestitutionCombineMode>
+	</PxMaterial>
+	<PxMaterial >
+		<Id >3</Id>
+		<DynamicFriction >0.585009</DynamicFriction>
+		<StaticFriction >0.80874</StaticFriction>
+		<Restitution >0.479873</Restitution>
+		<FrictionCombineMode >eAVERAGE</FrictionCombineMode>
+		<RestitutionCombineMode >eAVERAGE</RestitutionCombineMode>
+	</PxMaterial>
+	<PxShape >
+		<Id >5</Id>
+		<Geometry >
+			<PxBoxGeometry >
+				<HalfExtents >0.895962 0.82284 0.746605</HalfExtents>
+			</PxBoxGeometry>
+		</Geometry>
+		<LocalPose >0 0 0 1 0 0 0</LocalPose>
+		<SimulationFilterData >0 0 0 0</SimulationFilterData>
+		<QueryFilterData >0 0 0 0</QueryFilterData>
+		<Materials >
+			<PxMaterialRef >2</PxMaterialRef>
+		</Materials>
+		<ContactOffset >0.02</ContactOffset>
+		<RestOffset >0</RestOffset>
+		<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+		<Name >@boxShape</Name>
+	</PxShape>
+	<PxShape >
+		<Id >6</Id>
+		<Geometry >
+			<PxSphereGeometry >
+				<Radius >0.174108</Radius>
+			</PxSphereGeometry>
+		</Geometry>
+		<LocalPose >0 0 0 1 0 0 0</LocalPose>
+		<SimulationFilterData >0 0 0 0</SimulationFilterData>
+		<QueryFilterData >0 0 0 0</QueryFilterData>
+		<Materials >
+			<PxMaterialRef >2</PxMaterialRef>
+		</Materials>
+		<ContactOffset >0.02</ContactOffset>
+		<RestOffset >0</RestOffset>
+		<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+		<Name >@sphereShape</Name>
+	</PxShape>
+	<PxShape >
+		<Id >7</Id>
+		<Geometry >
+			<PxCapsuleGeometry >
+				<Radius >0.710501</Radius>
+				<HalfHeight >0.858943</HalfHeight>
+			</PxCapsuleGeometry>
+		</Geometry>
+		<LocalPose >0 0 0 1 0 0 0</LocalPose>
+		<SimulationFilterData >0 0 0 0</SimulationFilterData>
+		<QueryFilterData >0 0 0 0</QueryFilterData>
+		<Materials >
+			<PxMaterialRef >2</PxMaterialRef>
+		</Materials>
+		<ContactOffset >0.02</ContactOffset>
+		<RestOffset >0</RestOffset>
+		<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+		<Name >@capsuleShape</Name>
+	</PxShape>
+	<PxConvexMesh >
+		<Id >18</Id>
+		<points > 0.875973 0.726676 0.955901 0.840144 0.0237434 0.375866&#x0A;&#x09;&#x09;&#x09;0.996796 0.999695 0.611499 0.925718 0.539354 0.142338&#x0A;&#x09;&#x09;&#x09;0.165899 0.988525 0.445692 0.462081 0.235328 0.862239&#x0A;&#x09;&#x09;&#x09;0.0570391 0.607685 0.783319 0.119083 0.00466933 0.0089114&#x0A;&#x09;&#x09;&#x09;0.209601 0.779656 0.843654 0.513535 0.303995 0.0149846&#x0A;&#x09;&#x09;&#x09;0.0914029 0.364452 0.147313 0.601764 0.607166 0.166234</points>
+	</PxConvexMesh>
+	<PxShape >
+		<Id >8</Id>
+		<Geometry >
+			<PxConvexMeshGeometry >
+				<Scale >
+					<Scale >1.09262 1.09262 1.09262</Scale>
+					<Rotation >0 0 0 1</Rotation>
+				</Scale>
+				<ConvexMesh >18</ConvexMesh>
+				<MaxMargin >3.4e+38</MaxMargin>
+			</PxConvexMeshGeometry>
+		</Geometry>
+		<LocalPose >0 0 0 1 0 0 0</LocalPose>
+		<SimulationFilterData >0 0 0 0</SimulationFilterData>
+		<QueryFilterData >0 0 0 0</QueryFilterData>
+		<Materials >
+			<PxMaterialRef >2</PxMaterialRef>
+		</Materials>
+		<ContactOffset >0.02</ContactOffset>
+		<RestOffset >0</RestOffset>
+		<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+		<Name >@convexShape</Name>
+	</PxShape>
+	<PxBVH33TriangleMesh >
+		<Id >16</Id>
+		<Points > -0.200678 -6.84031 6.84031 -0.200678 -4.72476 6.84031&#x0A;&#x09;&#x09;&#x09;-0.200678 -4.72476 4.43928 -0.200678 -0.649252 2.59771&#x0A;&#x09;&#x09;&#x09;-0.200678 -0.649252 -2.02146 -0.200678 5.88021 -2.02146&#x0A;&#x09;&#x09;&#x09;-0.200678 6.84031 -6.84031 -0.200678 1.90275 -6.84031&#x0A;&#x09;&#x09;&#x09;-0.200678 1.90275 -3.9695 -0.200678 -4.62672 -3.9695&#x0A;&#x09;&#x09;&#x09;-0.200678 -4.62672 -6.84031 -0.200678 -6.84031 -6.84031&#x0A;&#x09;&#x09;&#x09;-0.200678 6.84031 6.84031 -0.200678 5.88021 2.59771&#x0A;&#x09;&#x09;&#x09;-0.200678 1.8047 4.43928 -0.200678 1.8047 6.84031&#x0A;&#x09;&#x09;&#x09;0.200678 -6.84031 -6.84031 0.200678 -6.84031 6.84031&#x0A;&#x09;&#x09;&#x09;0.200678 -4.72476 6.84031 0.200678 1.8047 6.84031&#x0A;&#x09;&#x09;&#x09;0.200678 6.84031 6.84031 0.200678 6.84031 -6.84031&#x0A;&#x09;&#x09;&#x09;0.200678 1.90275 -6.84031 0.200678 -4.62672 -6.84031&#x0A;&#x09;&#x09;&#x09;0.200678 1.8047 4.43928 0.200678 -4.72476 4.43928&#x0A;&#x09;&#x09;&#x09;0.200678 -0.649252 2.59771 0.200678 5.88021 2.59771&#x0A;&#x09;&#x09;&#x09;0.200678 5.88021 -2.02146 0.200678 -4.62672 -3.9695&#x0A;&#x09;&#x09;&#x09;0.200678 1.90275 -3.9695 0.200678 -0.649252 -2.02146</Points>
+		<Triangles > 10 23 16 10 16 11&#x0A;&#x09;&#x09;&#x09;16 23 29 23 10 9&#x0A;&#x09;&#x09;&#x09;9 10 11 16 17 0&#x0A;&#x09;&#x09;&#x09;11 0 9 16 0 11&#x0A;&#x09;&#x09;&#x09;16 29 17 25 17 29&#x0A;&#x09;&#x09;&#x09;9 0 2 1 18 25&#x0A;&#x09;&#x09;&#x09;1 25 2 0 1 2&#x0A;&#x09;&#x09;&#x09;18 17 25 18 0 17&#x0A;&#x09;&#x09;&#x09;18 1 0 23 9 29&#x0A;&#x09;&#x09;&#x09;29 8 30 29 9 8&#x0A;&#x09;&#x09;&#x09;29 30 31 4 8 9&#x0A;&#x09;&#x09;&#x09;9 2 4 2 3 4&#x0A;&#x09;&#x09;&#x09;29 31 25 31 26 25&#x0A;&#x09;&#x09;&#x09;24 25 26 3 2 14&#x0A;&#x09;&#x09;&#x09;2 25 24 2 24 14&#x0A;&#x09;&#x09;&#x09;3 26 31 3 31 4&#x0A;&#x09;&#x09;&#x09;7 22 30 6 22 7&#x0A;&#x09;&#x09;&#x09;6 21 22 30 22 21&#x0A;&#x09;&#x09;&#x09;7 30 8 6 7 8&#x0A;&#x09;&#x09;&#x09;30 21 28 5 6 8&#x0A;&#x09;&#x09;&#x09;30 28 31 4 5 8&#x0A;&#x09;&#x09;&#x09;4 31 28 4 28 5&#x0A;&#x09;&#x09;&#x09;27 5 28 27 13 5&#x0A;&#x09;&#x09;&#x09;12 6 5 12 5 13&#x0A;&#x09;&#x09;&#x09;28 21 20 27 28 20&#x0A;&#x09;&#x09;&#x09;6 12 20 6 20 21&#x0A;&#x09;&#x09;&#x09;24 26 27 26 3 13&#x0A;&#x09;&#x09;&#x09;13 3 14 26 13 27&#x0A;&#x09;&#x09;&#x09;20 24 27 12 13 14&#x0A;&#x09;&#x09;&#x09;19 15 14 19 14 24&#x0A;&#x09;&#x09;&#x09;20 19 24 14 15 12&#x0A;&#x09;&#x09;&#x09;20 12 15 20 15 19</Triangles>
+		<materialIndices > 3 3 2 0 3 2&#x0A;&#x09;&#x09;&#x09;0 2 1 0 1 3&#x0A;&#x09;&#x09;&#x09;3 2 1 3 3 0&#x0A;&#x09;&#x09;&#x09;2 2 3 0 3 1&#x0A;&#x09;&#x09;&#x09;1 1 1 1 1 1&#x0A;&#x09;&#x09;&#x09;2 2 3 2 2 3&#x0A;&#x09;&#x09;&#x09;3 0 0 2 2 0&#x0A;&#x09;&#x09;&#x09;0 0 1 1 1 3&#x0A;&#x09;&#x09;&#x09;0 2 1 1 3 3&#x0A;&#x09;&#x09;&#x09;2 3 0 1 2 2&#x0A;&#x09;&#x09;&#x09;0 0 0 0</materialIndices>
+	</PxBVH33TriangleMesh>
+	<PxShape >
+		<Id >9</Id>
+		<Geometry >
+			<PxTriangleMeshGeometry >
+				<Scale >
+					<Scale >1.67721 1.67721 1.67721</Scale>
+					<Rotation >0 0 0 1</Rotation>
+				</Scale>
+				<TriangleMesh >1681414741120</TriangleMesh>
+			</PxTriangleMeshGeometry>
+		</Geometry>
+		<LocalPose >0 0 0 1 0 0 0</LocalPose>
+		<SimulationFilterData >0 0 0 0</SimulationFilterData>
+		<QueryFilterData >0 0 0 0</QueryFilterData>
+		<Materials >
+			<PxMaterialRef >2</PxMaterialRef>
+		</Materials>
+		<ContactOffset >0.02</ContactOffset>
+		<RestOffset >0</RestOffset>
+		<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+		<Name >@triangleShape</Name>
+	</PxShape>
+	<PxShape >
+		<Id >10</Id>
+		<Geometry >
+			<PxBoxGeometry >
+				<HalfExtents >0.00878933 0.91879 0.275887</HalfExtents>
+			</PxBoxGeometry>
+		</Geometry>
+		<LocalPose >0 0 0 1 0 0 0</LocalPose>
+		<SimulationFilterData >0 0 0 0</SimulationFilterData>
+		<QueryFilterData >0 0 0 0</QueryFilterData>
+		<Materials >
+			<PxMaterialRef >2</PxMaterialRef>
+		</Materials>
+		<ContactOffset >0.02</ContactOffset>
+		<RestOffset >0</RestOffset>
+		<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+		<Name >@boxShape</Name>
+	</PxShape>
+	<PxShape >
+		<Id >11</Id>
+		<Geometry >
+			<PxSphereGeometry >
+				<Radius >0.272896</Radius>
+			</PxSphereGeometry>
+		</Geometry>
+		<LocalPose >0 0 0 1 0 0 0</LocalPose>
+		<SimulationFilterData >0 0 0 0</SimulationFilterData>
+		<QueryFilterData >0 0 0 0</QueryFilterData>
+		<Materials >
+			<PxMaterialRef >2</PxMaterialRef>
+		</Materials>
+		<ContactOffset >0.02</ContactOffset>
+		<RestOffset >0</RestOffset>
+		<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+		<Name >@sphereShape</Name>
+	</PxShape>
+	<PxShape >
+		<Id >12</Id>
+		<Geometry >
+			<PxCapsuleGeometry >
+				<Radius >0.691183</Radius>
+				<HalfHeight >0.587909</HalfHeight>
+			</PxCapsuleGeometry>
+		</Geometry>
+		<LocalPose >0 0 0 1 0 0 0</LocalPose>
+		<SimulationFilterData >0 0 0 0</SimulationFilterData>
+		<QueryFilterData >0 0 0 0</QueryFilterData>
+		<Materials >
+			<PxMaterialRef >2</PxMaterialRef>
+		</Materials>
+		<ContactOffset >0.02</ContactOffset>
+		<RestOffset >0</RestOffset>
+		<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+		<Name >@capsuleShape</Name>
+	</PxShape>
+	<PxConvexMesh >
+		<Id >19</Id>
+		<points > 0.457961 0.949156 0.744438 0.98999 0.751549 0.345561&#x0A;&#x09;&#x09;&#x09;0.147496 0.949583 0.141575 0.0635395 0.699759 0.504807&#x0A;&#x09;&#x09;&#x09;0.426557 0.0703757 0.966613 0.683187 0.153233 0.877255&#x0A;&#x09;&#x09;&#x09;0.361339 0.151555 0.225105 0.82168 0.582049 0.191351&#x0A;&#x09;&#x09;&#x09;0.10828 0.599048 0.385235</points>
+	</PxConvexMesh>
+	<PxShape >
+		<Id >13</Id>
+		<Geometry >
+			<PxConvexMeshGeometry >
+				<Scale >
+					<Scale >1.15555 1.15555 1.15555</Scale>
+					<Rotation >0 0 0 1</Rotation>
+				</Scale>
+				<ConvexMesh >19</ConvexMesh>
+				<MaxMargin >3.4e+38</MaxMargin>
+			</PxConvexMeshGeometry>
+		</Geometry>
+		<LocalPose >0 0 0 1 0 0 0</LocalPose>
+		<SimulationFilterData >0 0 0 0</SimulationFilterData>
+		<QueryFilterData >0 0 0 0</QueryFilterData>
+		<Materials >
+			<PxMaterialRef >2</PxMaterialRef>
+		</Materials>
+		<ContactOffset >0.02</ContactOffset>
+		<RestOffset >0</RestOffset>
+		<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+		<Name >@convexShape</Name>
+	</PxShape>
+	<PxBVH33TriangleMesh >
+		<Id >17</Id>
+		<Points > -0.200678 -6.84031 6.84031 -0.200678 -4.72476 6.84031&#x0A;&#x09;&#x09;&#x09;-0.200678 -4.72476 4.43928 -0.200678 -0.649252 2.59771&#x0A;&#x09;&#x09;&#x09;-0.200678 -0.649252 -2.02146 -0.200678 5.88021 -2.02146&#x0A;&#x09;&#x09;&#x09;-0.200678 6.84031 -6.84031 -0.200678 1.90275 -6.84031&#x0A;&#x09;&#x09;&#x09;-0.200678 1.90275 -3.9695 -0.200678 -4.62672 -3.9695&#x0A;&#x09;&#x09;&#x09;-0.200678 -4.62672 -6.84031 -0.200678 -6.84031 -6.84031&#x0A;&#x09;&#x09;&#x09;-0.200678 6.84031 6.84031 -0.200678 5.88021 2.59771&#x0A;&#x09;&#x09;&#x09;-0.200678 1.8047 4.43928 -0.200678 1.8047 6.84031&#x0A;&#x09;&#x09;&#x09;0.200678 -6.84031 -6.84031 0.200678 -6.84031 6.84031&#x0A;&#x09;&#x09;&#x09;0.200678 -4.72476 6.84031 0.200678 1.8047 6.84031&#x0A;&#x09;&#x09;&#x09;0.200678 6.84031 6.84031 0.200678 6.84031 -6.84031&#x0A;&#x09;&#x09;&#x09;0.200678 1.90275 -6.84031 0.200678 -4.62672 -6.84031&#x0A;&#x09;&#x09;&#x09;0.200678 1.8047 4.43928 0.200678 -4.72476 4.43928&#x0A;&#x09;&#x09;&#x09;0.200678 -0.649252 2.59771 0.200678 5.88021 2.59771&#x0A;&#x09;&#x09;&#x09;0.200678 5.88021 -2.02146 0.200678 -4.62672 -3.9695&#x0A;&#x09;&#x09;&#x09;0.200678 1.90275 -3.9695 0.200678 -0.649252 -2.02146</Points>
+		<Triangles > 10 23 16 10 16 11&#x0A;&#x09;&#x09;&#x09;16 23 29 23 10 9&#x0A;&#x09;&#x09;&#x09;9 10 11 16 17 0&#x0A;&#x09;&#x09;&#x09;11 0 9 16 0 11&#x0A;&#x09;&#x09;&#x09;16 29 17 25 17 29&#x0A;&#x09;&#x09;&#x09;9 0 2 1 18 25&#x0A;&#x09;&#x09;&#x09;1 25 2 0 1 2&#x0A;&#x09;&#x09;&#x09;18 17 25 18 0 17&#x0A;&#x09;&#x09;&#x09;18 1 0 23 9 29&#x0A;&#x09;&#x09;&#x09;29 8 30 29 9 8&#x0A;&#x09;&#x09;&#x09;29 30 31 4 8 9&#x0A;&#x09;&#x09;&#x09;9 2 4 2 3 4&#x0A;&#x09;&#x09;&#x09;29 31 25 31 26 25&#x0A;&#x09;&#x09;&#x09;24 25 26 3 2 14&#x0A;&#x09;&#x09;&#x09;2 25 24 2 24 14&#x0A;&#x09;&#x09;&#x09;3 26 31 3 31 4&#x0A;&#x09;&#x09;&#x09;7 22 30 6 22 7&#x0A;&#x09;&#x09;&#x09;6 21 22 30 22 21&#x0A;&#x09;&#x09;&#x09;7 30 8 6 7 8&#x0A;&#x09;&#x09;&#x09;30 21 28 5 6 8&#x0A;&#x09;&#x09;&#x09;30 28 31 4 5 8&#x0A;&#x09;&#x09;&#x09;4 31 28 4 28 5&#x0A;&#x09;&#x09;&#x09;27 5 28 27 13 5&#x0A;&#x09;&#x09;&#x09;12 6 5 12 5 13&#x0A;&#x09;&#x09;&#x09;28 21 20 27 28 20&#x0A;&#x09;&#x09;&#x09;6 12 20 6 20 21&#x0A;&#x09;&#x09;&#x09;24 26 27 26 3 13&#x0A;&#x09;&#x09;&#x09;13 3 14 26 13 27&#x0A;&#x09;&#x09;&#x09;20 24 27 12 13 14&#x0A;&#x09;&#x09;&#x09;19 15 14 19 14 24&#x0A;&#x09;&#x09;&#x09;20 19 24 14 15 12&#x0A;&#x09;&#x09;&#x09;20 12 15 20 15 19</Triangles>
+		<materialIndices > 3 3 2 0 3 2&#x0A;&#x09;&#x09;&#x09;0 2 1 0 1 3&#x0A;&#x09;&#x09;&#x09;3 2 1 3 3 0&#x0A;&#x09;&#x09;&#x09;2 2 3 0 3 1&#x0A;&#x09;&#x09;&#x09;1 1 1 1 1 1&#x0A;&#x09;&#x09;&#x09;2 2 3 2 2 3&#x0A;&#x09;&#x09;&#x09;3 0 0 2 2 0&#x0A;&#x09;&#x09;&#x09;0 0 1 1 1 3&#x0A;&#x09;&#x09;&#x09;0 2 1 1 3 3&#x0A;&#x09;&#x09;&#x09;2 3 0 1 2 2&#x0A;&#x09;&#x09;&#x09;0 0 0 0</materialIndices>
+	</PxBVH33TriangleMesh>
+	<PxShape >
+		<Id >14</Id>
+		<Geometry >
+			<PxTriangleMeshGeometry >
+				<Scale >
+					<Scale >1.50392 1.50392 1.50392</Scale>
+					<Rotation >0 0 0 1</Rotation>
+				</Scale>
+				<TriangleMesh >1681414513968</TriangleMesh>
+			</PxTriangleMeshGeometry>
+		</Geometry>
+		<LocalPose >0 0 0 1 0 0 0</LocalPose>
+		<SimulationFilterData >0 0 0 0</SimulationFilterData>
+		<QueryFilterData >0 0 0 0</QueryFilterData>
+		<Materials >
+			<PxMaterialRef >2</PxMaterialRef>
+		</Materials>
+		<ContactOffset >0.02</ContactOffset>
+		<RestOffset >0</RestOffset>
+		<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+		<Name >@triangleShape</Name>
+	</PxShape>
+	<PxHeightField >
+		<Id >20</Id>
+		<NbRows >16</NbRows>
+		<NbColumns >16</NbColumns>
+		<Format >eS16_TM</Format>
+		<Thickness >-1</Thickness>
+		<ConvexEdgeThreshold >0</ConvexEdgeThreshold>
+		<samples > 2147483648 2147483649 2147483650 2147483651 2147483652 2147483653&#x0A;&#x09;&#x09;&#x09;2147483654 2147483655 2147483656 2147483657 2147483658 2147483659&#x0A;&#x09;&#x09;&#x09;2147483660 2147483661 2147483662 2147483663 2147483648 1&#x0A;&#x09;&#x09;&#x09;2 3 4 5 6 7&#x0A;&#x09;&#x09;&#x09;8 9 10 11 12 13&#x0A;&#x09;&#x09;&#x09;14 2147483663 2147483648 1 2 3&#x0A;&#x09;&#x09;&#x09;4 5 6 7 8 9&#x0A;&#x09;&#x09;&#x09;10 11 12 13 14 2147483663&#x0A;&#x09;&#x09;&#x09;2147483648 1 2 3 4 5&#x0A;&#x09;&#x09;&#x09;6 7 8 9 10 11&#x0A;&#x09;&#x09;&#x09;12 13 14 2147483663 2147483648 1&#x0A;&#x09;&#x09;&#x09;2 3 4 5 6 7&#x0A;&#x09;&#x09;&#x09;8 9 10 11 12 13&#x0A;&#x09;&#x09;&#x09;14 2147483663 2147483648 1 2 3&#x0A;&#x09;&#x09;&#x09;4 5 6 7 8 9&#x0A;&#x09;&#x09;&#x09;10 11 12 13 14 2147483663&#x0A;&#x09;&#x09;&#x09;2147483648 1 2 3 4 5&#x0A;&#x09;&#x09;&#x09;6 7 8 9 10 11&#x0A;&#x09;&#x09;&#x09;12 13 14 2147483663 2147483648 1&#x0A;&#x09;&#x09;&#x09;2 3 4 5 6 7&#x0A;&#x09;&#x09;&#x09;8 9 10 11 12 13&#x0A;&#x09;&#x09;&#x09;14 2147483663 2147483648 1 2 3&#x0A;&#x09;&#x09;&#x09;4 5 6 7 8 9&#x0A;&#x09;&#x09;&#x09;10 11 12 13 14 2147483663&#x0A;&#x09;&#x09;&#x09;2147483648 1 2 3 4 5&#x0A;&#x09;&#x09;&#x09;6 7 8 9 10 11&#x0A;&#x09;&#x09;&#x09;12 13 14 2147483663 2147483648 1&#x0A;&#x09;&#x09;&#x09;2 3 4 5 6 7&#x0A;&#x09;&#x09;&#x09;8 9 10 11 12 13&#x0A;&#x09;&#x09;&#x09;14 2147483663 2147483648 1 2 3&#x0A;&#x09;&#x09;&#x09;4 5 6 7 8 9&#x0A;&#x09;&#x09;&#x09;10 11 12 13 14 2147483663&#x0A;&#x09;&#x09;&#x09;2147483648 1 2 3 4 5&#x0A;&#x09;&#x09;&#x09;6 7 8 9 10 11&#x0A;&#x09;&#x09;&#x09;12 13 14 2147483663 2147483648 1&#x0A;&#x09;&#x09;&#x09;2 3 4 5 6 7&#x0A;&#x09;&#x09;&#x09;8 9 10 11 12 13&#x0A;&#x09;&#x09;&#x09;14 2147483663 2147483648 1 2 3&#x0A;&#x09;&#x09;&#x09;4 5 6 7 8 9&#x0A;&#x09;&#x09;&#x09;10 11 12 13 14 2147483663&#x0A;&#x09;&#x09;&#x09;2147483648 2147483649 2147483650 2147483651 2147483652 2147483653&#x0A;&#x09;&#x09;&#x09;2147483654 2147483655 2147483656 2147483657 2147483658 2147483659&#x0A;&#x09;&#x09;&#x09;2147483660 2147483661 2147483662 2147483663</samples>
+	</PxHeightField>
+	<PxShape >
+		<Id >15</Id>
+		<Geometry >
+			<PxHeightFieldGeometry >
+				<HeightField >20</HeightField>
+				<HeightScale >1.40559</HeightScale>
+				<RowScale >1.40559</RowScale>
+				<ColumnScale >1.40559</ColumnScale>
+				<HeightFieldFlags >eDOUBLE_SIDED</HeightFieldFlags>
+			</PxHeightFieldGeometry>
+		</Geometry>
+		<LocalPose >0 0 0 1 0 0 0</LocalPose>
+		<SimulationFilterData >0 0 0 0</SimulationFilterData>
+		<QueryFilterData >0 0 0 0</QueryFilterData>
+		<Materials >
+			<PxMaterialRef >2</PxMaterialRef>
+		</Materials>
+		<ContactOffset >0.02</ContactOffset>
+		<RestOffset >0</RestOffset>
+		<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+		<Name >@heightFieldShape</Name>
+	</PxShape>
+</PhysX30Collection>
+<PhysX30Collection version="3.4.0" >
+	<UpVector >0 0 0</UpVector>
+	<Scale >
+		<Length >0</Length>
+		<Mass >0</Mass>
+		<Speed >0</Speed>
+	</Scale>
+	<PxRigidStatic >
+		<Id >1681414466032</Id>
+		<Name />
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 -0 0.707107 0.707107 -0 -0 -0</GlobalPose>
+		<Shapes >
+			<PxShape >
+				<Geometry >
+					<PxPlaneGeometry />
+				</Geometry>
+				<LocalPose >0 0 0 1 0 0 0</LocalPose>
+				<SimulationFilterData >0 0 0 0</SimulationFilterData>
+				<QueryFilterData >0 0 0 0</QueryFilterData>
+				<Materials >
+					<PxMaterialRef >1</PxMaterialRef>
+				</Materials>
+				<ContactOffset >0.02</ContactOffset>
+				<RestOffset >0</RestOffset>
+				<Flags >eSIMULATION_SHAPE|eSCENE_QUERY_SHAPE|eVISUALIZATION</Flags>
+				<Name />
+			</PxShape>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1681414466208</Id>
+		<Name >@rigidStatic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 -2.2042 0 0.687429</GlobalPose>
+		<Shapes >
+			<PxShapeRef >5</PxShapeRef>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1681414466384</Id>
+		<Name >@rigidStatic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 1.82241 0 2.55852</GlobalPose>
+		<Shapes >
+			<PxShapeRef >6</PxShapeRef>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1681414466560</Id>
+		<Name >@rigidStatic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 2.21915 0 -0.247047</GlobalPose>
+		<Shapes >
+			<PxShapeRef >7</PxShapeRef>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1681414466736</Id>
+		<Name >@rigidStatic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 -3.7698 0 -1.32191</GlobalPose>
+		<Shapes >
+			<PxShapeRef >8</PxShapeRef>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1681414466912</Id>
+		<Name >@rigidStatic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 3.34681 0 -4.64904</GlobalPose>
+		<Shapes >
+			<PxShapeRef >9</PxShapeRef>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1681414467088</Id>
+		<Name >@rigidStatic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 0.170141 0 1.62984</GlobalPose>
+		<Shapes >
+			<PxShapeRef >10</PxShapeRef>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1681414467264</Id>
+		<Name >@rigidStatic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 -0.737785 0 -3.95322</GlobalPose>
+		<Shapes >
+			<PxShapeRef >11</PxShapeRef>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1681414467440</Id>
+		<Name >@rigidStatic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 4.49339 0 4.21384</GlobalPose>
+		<Shapes >
+			<PxShapeRef >12</PxShapeRef>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1681414467616</Id>
+		<Name >@rigidStatic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 0.495468 0 -1.54012</GlobalPose>
+		<Shapes >
+			<PxShapeRef >13</PxShapeRef>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1681414467792</Id>
+		<Name >@rigidStatic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 -0.282754 0 -1.25019</GlobalPose>
+		<Shapes >
+			<PxShapeRef >14</PxShapeRef>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidStatic >
+		<Id >1681414467968</Id>
+		<Name >@rigidStatic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 3.4698 0 -1.83126</GlobalPose>
+		<Shapes >
+			<PxShapeRef >15</PxShapeRef>
+		</Shapes>
+	</PxRigidStatic>
+	<PxRigidDynamic >
+		<Id >1681414742304</Id>
+		<Name >@rigidDynamic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 -0.439009 4.92916 -2.28111</GlobalPose>
+		<Shapes >
+			<PxShapeRef >5</PxShapeRef>
+		</Shapes>
+		<CMassLocalPose >0 0 0 1 0 0 0</CMassLocalPose>
+		<Mass >4.40338</Mass>
+		<MassSpaceInertiaTensor >1.81197 1.99644 2.17206</MassSpaceInertiaTensor>
+		<LinearVelocity >0 -0.1635 0</LinearVelocity>
+		<AngularVelocity >0 0 0</AngularVelocity>
+		<MinCCDAdvanceCoefficient >0.15</MinCCDAdvanceCoefficient>
+		<MaxDepenetrationVelocity >1e+32</MaxDepenetrationVelocity>
+		<MaxContactImpulse >1e+32</MaxContactImpulse>
+		<LinearDamping >0</LinearDamping>
+		<AngularDamping >0.05</AngularDamping>
+		<MaxAngularVelocity >7</MaxAngularVelocity>
+		<SleepThreshold >0.005</SleepThreshold>
+		<StabilizationThreshold >0.0025</StabilizationThreshold>
+		<WakeCounter >0.383333</WakeCounter>
+		<SolverIterationCounts >
+			<minPositionIters >4</minPositionIters>
+			<minVelocityIters >1</minVelocityIters>
+		</SolverIterationCounts>
+		<ContactReportThreshold >3.40282e+38</ContactReportThreshold>
+	</PxRigidDynamic>
+	<PxRigidDynamic >
+		<Id >1681414742688</Id>
+		<Name >@rigidDynamic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >-0.000212845 -1.78377e-05 0.000749515 1 2.38911 1.78589 0.673098</GlobalPose>
+		<Shapes >
+			<PxShapeRef >6</PxShapeRef>
+		</Shapes>
+		<CMassLocalPose >0 0 0 1 0 0 0</CMassLocalPose>
+		<Mass >0.0221078</Mass>
+		<MassSpaceInertiaTensor >0.000268067 0.000268067 0.000268067</MassSpaceInertiaTensor>
+		<LinearVelocity >-0.166113 0.135623 0.0186858</LinearVelocity>
+		<AngularVelocity >-0.0333934 -0.00192641 0.093463</AngularVelocity>
+		<MinCCDAdvanceCoefficient >0.15</MinCCDAdvanceCoefficient>
+		<MaxDepenetrationVelocity >1e+32</MaxDepenetrationVelocity>
+		<MaxContactImpulse >1e+32</MaxContactImpulse>
+		<LinearDamping >0</LinearDamping>
+		<AngularDamping >0.05</AngularDamping>
+		<MaxAngularVelocity >7</MaxAngularVelocity>
+		<SleepThreshold >0.005</SleepThreshold>
+		<StabilizationThreshold >0.0025</StabilizationThreshold>
+		<WakeCounter >0.383333</WakeCounter>
+		<SolverIterationCounts >
+			<minPositionIters >4</minPositionIters>
+			<minVelocityIters >1</minVelocityIters>
+		</SolverIterationCounts>
+		<ContactReportThreshold >3.40282e+38</ContactReportThreshold>
+	</PxRigidDynamic>
+	<PxRigidDynamic >
+		<Id >1681414743072</Id>
+		<Name >@rigidDynamic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0.00353934 -0.0136384 0.00378406 0.999894 3.39029 3.00002 -1.02596</GlobalPose>
+		<Shapes >
+			<PxShapeRef >7</PxShapeRef>
+		</Shapes>
+		<CMassLocalPose >0 0 0 1 0 0 0</CMassLocalPose>
+		<Mass >4.22681</Mass>
+		<MassSpaceInertiaTensor >0.991031 3.11331 3.11331</MassSpaceInertiaTensor>
+		<LinearVelocity >-0.308615 -0.225766 -0.180788</LinearVelocity>
+		<AngularVelocity >0.521693 -2.01107 0.568476</AngularVelocity>
+		<MinCCDAdvanceCoefficient >0.15</MinCCDAdvanceCoefficient>
+		<MaxDepenetrationVelocity >1e+32</MaxDepenetrationVelocity>
+		<MaxContactImpulse >1e+32</MaxContactImpulse>
+		<LinearDamping >0</LinearDamping>
+		<AngularDamping >0.05</AngularDamping>
+		<MaxAngularVelocity >7</MaxAngularVelocity>
+		<SleepThreshold >0.005</SleepThreshold>
+		<StabilizationThreshold >0.0025</StabilizationThreshold>
+		<WakeCounter >0.383333</WakeCounter>
+		<SolverIterationCounts >
+			<minPositionIters >4</minPositionIters>
+			<minVelocityIters >1</minVelocityIters>
+		</SolverIterationCounts>
+		<ContactReportThreshold >3.40282e+38</ContactReportThreshold>
+	</PxRigidDynamic>
+	<PxRigidDynamic >
+		<Id >1681414743456</Id>
+		<Name >@rigidDynamic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 4.94629 1.19931 0.725882</GlobalPose>
+		<Shapes >
+			<PxShapeRef >8</PxShapeRef>
+		</Shapes>
+		<CMassLocalPose >0.322087 0.0488362 -0.185061 0.927161 0.559363 0.551498 0.528673</CMassLocalPose>
+		<Mass >0.505356</Mass>
+		<MassSpaceInertiaTensor >0.0561853 0.0431722 0.0675346</MassSpaceInertiaTensor>
+		<LinearVelocity >0 -0.1635 0</LinearVelocity>
+		<AngularVelocity >0 0 0</AngularVelocity>
+		<MinCCDAdvanceCoefficient >0.15</MinCCDAdvanceCoefficient>
+		<MaxDepenetrationVelocity >1e+32</MaxDepenetrationVelocity>
+		<MaxContactImpulse >1e+32</MaxContactImpulse>
+		<LinearDamping >0</LinearDamping>
+		<AngularDamping >0.05</AngularDamping>
+		<MaxAngularVelocity >7</MaxAngularVelocity>
+		<SleepThreshold >0.005</SleepThreshold>
+		<StabilizationThreshold >0.0025</StabilizationThreshold>
+		<WakeCounter >0.383333</WakeCounter>
+		<SolverIterationCounts >
+			<minPositionIters >4</minPositionIters>
+			<minVelocityIters >1</minVelocityIters>
+		</SolverIterationCounts>
+		<ContactReportThreshold >3.40282e+38</ContactReportThreshold>
+	</PxRigidDynamic>
+	<PxRigidDynamic >
+		<Id >1681414743840</Id>
+		<Name >@rigidDynamic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 -3.13418 3.31553 3.57916</GlobalPose>
+		<Shapes >
+			<PxShapeRef >10</PxShapeRef>
+		</Shapes>
+		<CMassLocalPose >0 0 0 1 0 0 0</CMassLocalPose>
+		<Mass >0.0178235</Mass>
+		<MassSpaceInertiaTensor >0.0054676 0.000452665 0.00501586</MassSpaceInertiaTensor>
+		<LinearVelocity >-4.08798 -15.5403 9.73034</LinearVelocity>
+		<AngularVelocity >0 0 0</AngularVelocity>
+		<MinCCDAdvanceCoefficient >0.15</MinCCDAdvanceCoefficient>
+		<MaxDepenetrationVelocity >1e+32</MaxDepenetrationVelocity>
+		<MaxContactImpulse >1e+32</MaxContactImpulse>
+		<LinearDamping >0</LinearDamping>
+		<AngularDamping >0.05</AngularDamping>
+		<MaxAngularVelocity >7</MaxAngularVelocity>
+		<SleepThreshold >0.005</SleepThreshold>
+		<StabilizationThreshold >0.0025</StabilizationThreshold>
+		<WakeCounter >0.383333</WakeCounter>
+		<SolverIterationCounts >
+			<minPositionIters >4</minPositionIters>
+			<minVelocityIters >1</minVelocityIters>
+		</SolverIterationCounts>
+		<ContactReportThreshold >3.40282e+38</ContactReportThreshold>
+	</PxRigidDynamic>
+	<PxRigidDynamic >
+		<Id >1681414744224</Id>
+		<Name >@rigidDynamic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0 0 0 1 3.42158 1.43699 -3.76675</GlobalPose>
+		<Shapes >
+			<PxShapeRef >11</PxShapeRef>
+		</Shapes>
+		<CMassLocalPose >0 0 0 1 0 0 0</CMassLocalPose>
+		<Mass >0.08513</Mass>
+		<MassSpaceInertiaTensor >0.00253594 0.00253594 0.00253594</MassSpaceInertiaTensor>
+		<LinearVelocity >0 -0.1635 0</LinearVelocity>
+		<AngularVelocity >0 0 0</AngularVelocity>
+		<MinCCDAdvanceCoefficient >0.15</MinCCDAdvanceCoefficient>
+		<MaxDepenetrationVelocity >1e+32</MaxDepenetrationVelocity>
+		<MaxContactImpulse >1e+32</MaxContactImpulse>
+		<LinearDamping >0</LinearDamping>
+		<AngularDamping >0.05</AngularDamping>
+		<MaxAngularVelocity >7</MaxAngularVelocity>
+		<SleepThreshold >0.005</SleepThreshold>
+		<StabilizationThreshold >0.0025</StabilizationThreshold>
+		<WakeCounter >0.383333</WakeCounter>
+		<SolverIterationCounts >
+			<minPositionIters >4</minPositionIters>
+			<minVelocityIters >1</minVelocityIters>
+		</SolverIterationCounts>
+		<ContactReportThreshold >3.40282e+38</ContactReportThreshold>
+	</PxRigidDynamic>
+	<PxRigidDynamic >
+		<Id >1681414744608</Id>
+		<Name >@rigidDynamic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >-0.000278304 -1.60531e-05 0.000778863 1 -1.86279 2.14228 4.41065</GlobalPose>
+		<Shapes >
+			<PxShapeRef >12</PxShapeRef>
+		</Shapes>
+		<CMassLocalPose >0 0 0 1 0 0 0</CMassLocalPose>
+		<Mass >3.14787</Mass>
+		<MassSpaceInertiaTensor >0.685844 1.57799 1.57799</MassSpaceInertiaTensor>
+		<LinearVelocity >0 -0.164943 -0.000788732</LinearVelocity>
+		<AngularVelocity >-0.0358111 -0.00590814 -0.0153153</AngularVelocity>
+		<MinCCDAdvanceCoefficient >0.15</MinCCDAdvanceCoefficient>
+		<MaxDepenetrationVelocity >1e+32</MaxDepenetrationVelocity>
+		<MaxContactImpulse >1e+32</MaxContactImpulse>
+		<LinearDamping >0</LinearDamping>
+		<AngularDamping >0.05</AngularDamping>
+		<MaxAngularVelocity >7</MaxAngularVelocity>
+		<SleepThreshold >0.005</SleepThreshold>
+		<StabilizationThreshold >0.0025</StabilizationThreshold>
+		<WakeCounter >0.383333</WakeCounter>
+		<SolverIterationCounts >
+			<minPositionIters >4</minPositionIters>
+			<minVelocityIters >1</minVelocityIters>
+		</SolverIterationCounts>
+		<ContactReportThreshold >3.40282e+38</ContactReportThreshold>
+	</PxRigidDynamic>
+	<PxRigidDynamic >
+		<Id >1681414744992</Id>
+		<Name >@rigidDynamic</Name>
+		<ActorFlags >eVISUALIZATION</ActorFlags>
+		<DominanceGroup >0</DominanceGroup>
+		<OwnerClient >0</OwnerClient>
+		<GlobalPose >0.00237659 0.0165676 0.138015 0.990289 2.19453 3.67137 3.36574</GlobalPose>
+		<Shapes >
+			<PxShapeRef >13</PxShapeRef>
+		</Shapes>
+		<CMassLocalPose >-0.299637 0.00833543 0.0852854 0.950197 0.550589 0.635893 0.569069</CMassLocalPose>
+		<Mass >0.349132</Mass>
+		<MassSpaceInertiaTensor >0.0329587 0.0233985 0.0357666</MassSpaceInertiaTensor>
+		<LinearVelocity >-7.55606 -0.0753415 -2.79245</LinearVelocity>
+		<AngularVelocity >0.463444 -25.5963 -8.44306</AngularVelocity>
+		<MinCCDAdvanceCoefficient >0.15</MinCCDAdvanceCoefficient>
+		<MaxDepenetrationVelocity >1e+32</MaxDepenetrationVelocity>
+		<MaxContactImpulse >1e+32</MaxContactImpulse>
+		<LinearDamping >0</LinearDamping>
+		<AngularDamping >0.05</AngularDamping>
+		<MaxAngularVelocity >7</MaxAngularVelocity>
+		<SleepThreshold >0.005</SleepThreshold>
+		<StabilizationThreshold >0.0025</StabilizationThreshold>
+		<WakeCounter >0.383333</WakeCounter>
+		<SolverIterationCounts >
+			<minPositionIters >4</minPositionIters>
+			<minVelocityIters >1</minVelocityIters>
+		</SolverIterationCounts>
+		<ContactReportThreshold >3.40282e+38</ContactReportThreshold>
+	</PxRigidDynamic>
+	<PxFixedJoint >
+		<Id >1681414424416</Id>
+		<Actors >
+			<actor0 >1681414742688</actor0>
+			<actor1 >1681414744608</actor1>
+		</Actors>
+		<LocalPose >
+			<eACTOR0 >0 0 0 1 0 0 0</eACTOR0>
+			<eACTOR1 >0 0 0 1 4.25123 -0.360363 -3.73791</eACTOR1>
+		</LocalPose>
+		<BreakForce >
+			<force >3.40282e+38</force>
+			<torque >3.40282e+38</torque>
+		</BreakForce>
+		<ConstraintFlags >eVISUALIZATION|eDISABLE_PREPROCESSING</ConstraintFlags>
+		<InvMassScale0 >1</InvMassScale0>
+		<InvInertiaScale0 >1</InvInertiaScale0>
+		<InvMassScale1 >1</InvMassScale1>
+		<InvInertiaScale1 >1</InvInertiaScale1>
+		<Name >@fixedJoint</Name>
+		<ProjectionLinearTolerance >1e+10</ProjectionLinearTolerance>
+		<ProjectionAngularTolerance >3.14159</ProjectionAngularTolerance>
+	</PxFixedJoint>
+	<PxD6Joint >
+		<Id >1681414523344</Id>
+		<Actors >
+			<actor0 >1681414744992</actor0>
+			<actor1 >1681414743072</actor1>
+		</Actors>
+		<LocalPose >
+			<eACTOR0 >0 0 0 1 0 0 0</eACTOR0>
+			<eACTOR1 >0 0 0 1 -1.06357 0.828395 4.36964</eACTOR1>
+		</LocalPose>
+		<BreakForce >
+			<force >3.40282e+38</force>
+			<torque >3.40282e+38</torque>
+		</BreakForce>
+		<ConstraintFlags >eVISUALIZATION|eDISABLE_PREPROCESSING</ConstraintFlags>
+		<InvMassScale0 >1</InvMassScale0>
+		<InvInertiaScale0 >1</InvInertiaScale0>
+		<InvMassScale1 >1</InvMassScale1>
+		<InvInertiaScale1 >1</InvInertiaScale1>
+		<Name >@hingJoint</Name>
+		<Motion >
+			<eX >eLOCKED</eX>
+			<eY >eLOCKED</eY>
+			<eZ >eLOCKED</eZ>
+			<eTWIST >eLIMITED</eTWIST>
+			<eSWING1 >eLOCKED</eSWING1>
+			<eSWING2 >eLOCKED</eSWING2>
+		</Motion>
+		<LinearLimit >
+			<Restitution >0</Restitution>
+			<BounceThreshold >0</BounceThreshold>
+			<Stiffness >0</Stiffness>
+			<Damping >0</Damping>
+			<ContactDistance >0.01</ContactDistance>
+			<Value >3.40282e+38</Value>
+		</LinearLimit>
+		<TwistLimit >
+			<Restitution >0</Restitution>
+			<BounceThreshold >0.5</BounceThreshold>
+			<Stiffness >0</Stiffness>
+			<Damping >0</Damping>
+			<ContactDistance >0.0855211</ContactDistance>
+			<Upper >0.0872665</Upper>
+			<Lower >-0.0872665</Lower>
+		</TwistLimit>
+		<SwingLimit >
+			<Restitution >0</Restitution>
+			<BounceThreshold >0.5</BounceThreshold>
+			<Stiffness >0</Stiffness>
+			<Damping >0</Damping>
+			<ContactDistance >0.1</ContactDistance>
+			<YAngle >1.5708</YAngle>
+			<ZAngle >1.5708</ZAngle>
+		</SwingLimit>
+		<Drive >
+			<eX >
+				<Stiffness >0</Stiffness>
+				<Damping >0</Damping>
+				<ForceLimit >3.40282e+38</ForceLimit>
+			</eX>
+			<eY >
+				<Stiffness >0</Stiffness>
+				<Damping >0</Damping>
+				<ForceLimit >3.40282e+38</ForceLimit>
+			</eY>
+			<eZ >
+				<Stiffness >0</Stiffness>
+				<Damping >0</Damping>
+				<ForceLimit >3.40282e+38</ForceLimit>
+			</eZ>
+			<eSWING >
+				<Stiffness >0</Stiffness>
+				<Damping >0</Damping>
+				<ForceLimit >3.40282e+38</ForceLimit>
+			</eSWING>
+			<eTWIST >
+				<Stiffness >0</Stiffness>
+				<Damping >0</Damping>
+				<ForceLimit >3.40282e+38</ForceLimit>
+			</eTWIST>
+			<eSLERP >
+				<Stiffness >0</Stiffness>
+				<Damping >1000</Damping>
+				<ForceLimit >3.40282e+38</ForceLimit>
+				<Flags >eACCELERATION</Flags>
+			</eSLERP>
+		</Drive>
+		<DrivePosition >0 0 0 1 0 0 0</DrivePosition>
+		<DriveVelocity >
+			<linear >0 0 0</linear>
+			<angular >0 0 0</angular>
+		</DriveVelocity>
+		<ProjectionLinearTolerance >1e+10</ProjectionLinearTolerance>
+		<ProjectionAngularTolerance >3.14159</ProjectionAngularTolerance>
+	</PxD6Joint>
+	<PxSphericalJoint >
+		<Id >1681414424624</Id>
+		<Actors >
+			<actor0 >1681414743840</actor0>
+			<actor1 >1681414744992</actor1>
+		</Actors>
+		<LocalPose >
+			<eACTOR0 >0 0 0 1 0 0 0</eACTOR0>
+			<eACTOR1 >0 0 0 1 -5.39018 -0.324961 0.0842314</eACTOR1>
+		</LocalPose>
+		<BreakForce >
+			<force >3.40282e+38</force>
+			<torque >3.40282e+38</torque>
+		</BreakForce>
+		<ConstraintFlags >eVISUALIZATION|eDISABLE_PREPROCESSING</ConstraintFlags>
+		<InvMassScale0 >1</InvMassScale0>
+		<InvInertiaScale0 >1</InvInertiaScale0>
+		<InvMassScale1 >1</InvMassScale1>
+		<InvInertiaScale1 >1</InvInertiaScale1>
+		<Name >@sphericalJoint</Name>
+		<LimitCone >
+			<Restitution >0</Restitution>
+			<BounceThreshold >0.5</BounceThreshold>
+			<Stiffness >0</Stiffness>
+			<Damping >0</Damping>
+			<ContactDistance >0.1</ContactDistance>
+			<YAngle >0.261799</YAngle>
+			<ZAngle >0.261799</ZAngle>
+		</LimitCone>
+		<SphericalJointFlags >eLIMIT_ENABLED</SphericalJointFlags>
+		<ProjectionLinearTolerance >1e+10</ProjectionLinearTolerance>
+	</PxSphericalJoint>
+</PhysX30Collection>

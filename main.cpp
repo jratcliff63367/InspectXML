@@ -5,6 +5,7 @@
 #include <string.h>
 
 #include "InspectXml.h"
+#include "CreateDOM.h"
 
 // Disable all of these warnings that 'stb.h' still generates
 #pragma warning(disable:4996 4244 4100 4267 4189 4456 4311 4302 4312 4838 4505 4701 4703)
@@ -97,6 +98,8 @@ __int64 pathDir(const char *spec,
 	return fileSize;
 }
 
+#define CREATE_DOM_FILE 0
+
 int main(int argc,const char **argv)
 {
 	if ( argc != 2 )
@@ -107,6 +110,28 @@ int main(int argc,const char **argv)
 		printf("This will then parse each XML file matching and collate a list of all unique element and attribute names.\r\n");
 		printf("The results will be saved to a file call 'xml.cpp'\r\n");
 	}
+#if CREATE_DOM_FILE
+	else
+	{
+		const char *spec = argv[1];
+		printf("Searching for files match: %s\r\n", spec);
+		std::vector< std::string > flist;
+		std::vector< std::string > dlist;
+		pathDir(spec, flist, dlist);
+		printf("Found: %d matching files in %d sub-directories.\r\n", uint32_t(flist.size()), uint32_t(dlist.size()));
+		CREATE_DOM::CreateDOM *ixml = CREATE_DOM::CreateDOM::create();
+		if (ixml)
+		{
+			for (auto &i : flist)
+			{
+				printf("Inspecting: %s\r\n", i.c_str());
+				ixml->inspectXml(i.c_str());
+			}
+			printf("Saving 'DOM.csv'\r\n");
+			ixml->saveDOM("DOM.csv");
+		}
+	}
+#else
 	else
 	{
 		const char *spec = argv[1];
@@ -127,5 +152,5 @@ int main(int argc,const char **argv)
 			ixml->saveSourceCode("xml.cpp");
 		}
 	}
-
+#endif
 }

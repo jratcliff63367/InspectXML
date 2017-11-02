@@ -288,7 +288,6 @@ public:
 	}
 
 
-
 	uint32_t		mElementCount{ 0 };
 	uint32_t		mAttributeCount{ 0 };
 	StringToToken	mElements;
