@@ -89,7 +89,7 @@ public:
 		{
 			char scratch[512];
 			strncpy(scratch, i.first.c_str(), 512);
-			_strupr(scratch);
+//			_strupr(scratch);
 			fixup(scratch);
 
 			for (auto &j : elements)
@@ -119,7 +119,7 @@ public:
 		{
 			char scratch[512];
 			strncpy(scratch, i.first.c_str(), 512);
-			_strupr(scratch);
+//			_strupr(scratch);
 			fixup(scratch);
 
 			for (auto &j : attributes)
@@ -160,7 +160,7 @@ public:
 			{
 				char scratch[512];
 				strncpy(scratch, j.first.c_str(), 512);
-				_strupr(scratch);
+//				_strupr(scratch);
 				fixup(scratch);
 				if (strcmp(scratch, i.c_str()) == 0)
 				{
@@ -189,7 +189,7 @@ public:
 			{
 				char scratch[512];
 				strncpy(scratch, j.first.c_str(), 512);
-				_strupr(scratch);
+//				_strupr(scratch);
 				fixup(scratch);
 				if (strcmp(scratch, i.c_str()) == 0)
 				{
